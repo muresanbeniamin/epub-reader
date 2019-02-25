@@ -10,6 +10,7 @@ gem 'rails'
 gem 'pg'
 gem 'fast_jsonapi'
 gem 'active_model_serializers', '0.10.5'
+gem 'epub-parser'
 gem 'puma', '~> 3.11'
 
 gem 'uglifier', '>= 1.3.0'
