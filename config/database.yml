@@ -14,7 +14,6 @@ development:
 
 production:
   adapter: postgresql
-  encoding: encoding
   pool: 5
   database: epub_reader_production
   username: ben
