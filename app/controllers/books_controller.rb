@@ -1,6 +1,6 @@
 class BooksController < ApplicationController
   def show
-    BookMailer.daily_book_mailer.deliver_later
+    BookMailer.daily_book_pages.deliver_later
     render inline: 'Hello World'
     # book = Book.find(1)
     # epub = EPUB::Parser.parse(book.link)
