@@ -11,3 +11,9 @@ development:
   database: epub_reader_development
   username: ben
   password: random
+
+production:
+  adapter: postgresql
+  database: epub_reader_production
+  pool: 5
+  timeout: 5000
