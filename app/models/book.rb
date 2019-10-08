@@ -9,7 +9,10 @@
 #  current_reading_page :integer          default(1)
 #  created_at           :datetime         not null
 #  updated_at           :datetime         not null
+#  user_id              :integer
 #
 
 class Book < ApplicationRecord
+  has_many :user_books
+  has_many :users, through: :user_books
 end
