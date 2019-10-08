@@ -9,12 +9,12 @@ default: &default
 development:
   <<: *default
   database: epub_reader_development
-  username: ben
-  password: random
+  username: reed
+  password: reed
 
 production:
   adapter: postgresql
   pool: 5
   database: epub_reader_production
-  username: ben
-  password:
+  username: reed
+  password: reed

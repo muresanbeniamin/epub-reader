@@ -14,6 +14,7 @@ gem 'epub-parser'
 gem 'puma', '~> 3.11'
 
 gem 'uglifier', '>= 1.3.0'
+gem 'annotate'
 
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
