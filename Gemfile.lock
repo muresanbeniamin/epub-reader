@@ -49,6 +49,9 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.6.0)
       public_suffix (>= 2.0.2, < 4.0)
+    annotate (3.0.2)
+      activerecord (>= 3.2, < 7.0)
+      rake (>= 10.4, < 13.0)
     archive-zip (0.11.0)
       io-like (~> 0.3.0)
     arel (9.0.0)
@@ -208,6 +211,7 @@ PLATFORMS
 
 DEPENDENCIES
   active_model_serializers (= 0.10.5)
+  annotate
   bootsnap (>= 1.1.0)
   byebug
   capybara (>= 2.15)
@@ -234,4 +238,4 @@ RUBY VERSION
    ruby 2.6.0p0
 
 BUNDLED WITH
-   1.17.2
+   1.17.3
